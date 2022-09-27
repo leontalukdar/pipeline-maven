@@ -6,4 +6,4 @@ echo "***************************************"
 echo "******* Building Docker Image *********"
 echo "***************************************"
 
-cd jenkins/build/ && docker-compose build
+cd jenkins/build/ && docker-compose -f docker-compose-build.yml build
